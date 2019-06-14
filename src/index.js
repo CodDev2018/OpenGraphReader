@@ -1,7 +1,7 @@
-const URLReader = require('./src/botURLReader')
-const DownPage = require('./src/botDownPage')
-const ScrapingOG = require('./src/botScrapingOG')
-const Spider = require('./src/botSpider')
+const URLReader = require('./botURLReader')
+const DownPage = require('./botDownPage')
+const ScrapingOG = require('./botScrapingOG')
+const Spider = require('./botSpider')
 
 module.exports = {
     download: DownPage,
